@@ -307,6 +307,7 @@
   -webkit-font-smoothing: antialiased;
   display: inline-block;
   text-decoration: inherit;
+  
 }
 
 .fi-address-book:before { content: "\f100"; }
@@ -346,7 +347,9 @@
 .fi-burst-sale:before { content: "\f122"; }
 .fi-burst:before { content: "\f123"; }
 .fi-calendar:before { content: "\f124"; }
-     +.size-12 { font-size: 12px; }
+    
+
+     /*+.size-12 { font-size: 12px; }
      +.size-14 { font-size: 14px; }
      +.size-16 { font-size: 16px; }
      +.size-18 { font-size: 18px; }
@@ -360,7 +363,8 @@
      +
      +i.medium { font-size: 48px;}
      +i.large { font-size: 72px;}
-     +i.xlarge { font-size: 102px;}
+     +i.xlarge { font-size: 102px;}*/
+
 .fi-camera:before { content: "\f125"; }
 .fi-check:before { content: "\f126"; }
 .fi-checkbox:before { content: "\f127"; }
