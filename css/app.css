@@ -1,3 +1,28 @@
+.is-dropdown-submenu-transparent{
+  border: 0px;
+  background: transparent;
+}
+
+a:link, a:visited{
+  color: white;
+}
+
+a:hover{
+  color:#2ba6cb;
+}
+
+.menu-text {
+  color: white;
+}
+
+.fix {
+  position: fixed;
+  top: 0%;
+  z-index: 1;
+  width: 100%;
+}
+
+
 .redbar {
   width: 100%;
   background-color: red;
@@ -6,8 +31,7 @@
 }
 
 .pad5vh {
-  margin-top: 5vh;
-  margin-bottom: 5vh;
+  padding: 5vh;
 }
 
 .hero-section {
@@ -32,24 +56,9 @@
   font-family: "Lato", sans-serif;
 }
 
- .size-12 { font-size: 12px; }
-      .size-14 { font-size: 14px; }
-      .size-16 { font-size: 16px; }
-      .size-18 { font-size: 18px; }
-      .size-21 { font-size: 21px; }
-      .size-24 { font-size: 24px; }
-      .size-36 { font-size: 36px; }
-      .size-48 { font-size: 48px; }
-      .size-60 { font-size: 60px; }
-      .size-72 { font-size: 72px; }
-      .size-102 { font-size: 102px; }
-      
-      i.medium { font-size: 48px;}
-      i.large { font-size: 72px;}
-      i.xlarge { font-size: 102px;}
-
   .hero {
-    background: url("http://dreamicus.com/data/wall/wall-01.jpg") 50% no-repeat;
+  z-index: -1;
+  background: url("http://dreamicus.com/data/wall/wall-01.jpg") 50% no-repeat;
   background-size: cover;
   height: 80vh;
   text-align: center;
@@ -69,41 +78,18 @@
   /*text-shadow: 1px 1px 2px #0a0a0a;*/
 }
 
-.card-flip {
-  perspective: 1000px;
-  &:hover .flip,
-  &.hover .flip {
-    transform: rotateY(180deg);
-  }
-}
-
-.card-flip,
-.front,
-.back {
-  width: 100%;
-  height: 480px;
-}
-
-.flip {
-  transition: 0.6s;
-  transform-style: preserve-3d;
-  position: relative;
-}
-
-.front,
-.back {
-  backface-visibility: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.front {
-  z-index: 2;
-  transform: rotateY(0deg);
-}
-
-.back {
-  transform: rotateY(180deg);
-}
-
+.size-12 { font-size: 12px; }
+      .size-14 { font-size: 14px; }
+      .size-16 { font-size: 16px; }
+      .size-18 { font-size: 18px; }
+      .size-21 { font-size: 21px; }
+      .size-24 { font-size: 24px; }
+      .size-36 { font-size: 36px; }
+      .size-48 { font-size: 48px; }
+      .size-60 { font-size: 60px; }
+      .size-72 { font-size: 72px; }
+      .size-102 { font-size: 102px; }
+      
+      i.medium { font-size: 48px;}
+      i.large { font-size: 72px;}
+      i.xlarge { font-size: 102px;}
