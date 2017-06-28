@@ -3,6 +3,18 @@
 MISC
 ************************************************/
 
+/*@font-face { font-family: GT-Walsheim-Bold; src: url('GT-Walsheim-Bold.TTF'); } */
+
+
+@font-face {
+  font-family: 'GT-Walsheim-Bold';
+  src: url('GT-Walsheim-Bold.ttf')  format('truetype'),
+}
+
+body {
+  font-family: 'MyWebFont', Fallback, sans-serif;
+}
+
 .fix {
   position: fixed;
   top: 0%;
@@ -99,7 +111,7 @@ a:hover{
 
   .hero {
   z-index: -1;
-  background: url("http://dreamicus.com/data/wall/wall-01.jpg") 50% no-repeat;
+  background: url("../images/bg-main-color-slim.jpg") 50% no-repeat;
   background-size: cover;
   height: 80vh;
   text-align: center;
@@ -117,6 +129,34 @@ a:hover{
   .hero .hero-text {
   color: #fefefe;
   /*text-shadow: 1px 1px 2px #0a0a0a;*/
+}
+
+#hero-call {
+    margin-top: 12.5%;
+    margin-left: 12.5%;
+    color: white;
+  }
+
+#hero-call h1 {
+    font-size: 7vmin;
+    font-family: 'Lato', sans-serif;
+}
+
+#hero-call h2 {
+    font-size: 5.5vmin;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    padding-top:3vmin;
+}
+
+  .social-listing {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.social-media-img {
+    height: 10vmin;
+    width: auto;
 }
 
 /************************************************
